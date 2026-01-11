@@ -44,3 +44,13 @@ dependencies = [
 dev = [
     "ipykernel>=6.29.5",
 ]
+
+[tool.uv]
+# UV package manager configuration
+# This project uses UV for fast and reliable dependency management
+# Install UV: https://docs.astral.sh/uv/getting-started/installation/
+# Key commands:
+#   - uv sync: Install all dependencies
+#   - uv add <package>: Add a new package
+#   - uv run <script>: Run a script with the virtual environment
+#   - uv tool install crewai: Install CrewAI tools for week 3

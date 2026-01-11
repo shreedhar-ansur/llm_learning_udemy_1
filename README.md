@@ -14,6 +14,16 @@ I'm here to help you be most successful! Please do reach out if I can help, eith
 https://www.linkedin.com/in/eddonner/  
 And this is new to me, but I'm also trying out X/Twitter at [@edwarddonner](https://x.com/edwarddonner) - if you're on X, please show me how it's done 😂  
 
+### Package Management with UV
+
+This project uses **[UV](https://docs.astral.sh/uv/)**, a blazingly fast Python package manager written in Rust. UV handles all dependency management, virtual environments, and package installation. Make sure you have UV installed before proceeding - installation instructions are included in the setup guides below.
+
+Key UV commands you'll use:
+- `uv sync` - Install all dependencies from `pyproject.toml`
+- `uv add <package>` - Add a new package (replaces `pip install`)
+- `uv run <script>` - Run a script with the virtual environment (replaces `python <script>`)
+- `uv tool install crewai` - Install CrewAI tools for week 3
+
 ### The not-so-dreaded setup instructions
 
 Perhaps famous last words: but I really, truly hope that I've put together an environment that will be not too horrific to set up!
